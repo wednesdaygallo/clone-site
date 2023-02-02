@@ -1,0 +1,114 @@
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}
+  
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E6E8EC;
+}
+
+.container {
+    display: grid;  
+    grid-template-columns: 35% 65%;
+    width: 90%;
+    background-color: #fff;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7% 0 0 7%; 
+    background-image: url('https://images.unsplash.com/photo-1585854467604-cf2080ccef31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1173&q=80');
+    color: #fff;
+}
+
+.company-logo-container {
+    display: flex;
+    align-items: center;
+}
+
+svg {
+    width: 50px;
+}
+
+.icon {
+    width: 25px;
+}
+
+.login-container {
+    height: 100%;
+    display: grid;
+    grid-template-rows: 15% 85%;
+    padding: 0 1rem;
+}
+
+.small-logo {
+    display: flex;
+    align-items: center;
+}
+
+.login-form {
+    margin-bottom: 4em;
+    padding: 0 1.7rem;
+    text-align: center;
+}
+
+p {
+    font-size: .7em;
+    color: #555;
+}
+
+.google-login {
+    display: flex;
+    justify-content: center;
+    border: 1.3px solid darkgrey;
+    border-radius: 10px;
+    height: 35px;
+}
+
+.google-logo {
+    width: 17px;
+    margin-right: 0.3rem;
+}
+
+.forms {
+    font-size: 0.7rem;
+    color: #555;
+}
+
+.login > input {
+    width: 100%;
+    border: 0;
+    border-bottom: 1px solid lightgrey;
+    padding: 0.3rem;
+    margin-bottom: 0.7rem;
+    font-size: 0.7rem;
+}
+
+.remember-forgot {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-btn {
+    width: 100%;
+    margin: 0.3rem;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    background-color: #111727;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.bold {
+    font-weight: bold;
+}
